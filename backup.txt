@@ -1,0 +1,3 @@
+.profile
+.tmux.conf
+.config/nvim/init.vim
