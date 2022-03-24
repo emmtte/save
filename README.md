@@ -3,6 +3,7 @@
 ```
 sudo apt install -y curl gpg jq
 gpg --import private.key
+curl -O "https://raw.githubusercontent.com/emmtte/Telegram-Backup/main/{backup.sh,backup.txt}"
 ```
 
 ### Telegram Bot
