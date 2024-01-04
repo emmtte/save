@@ -20,3 +20,9 @@ curl -O "https://raw.githubusercontent.com/emmtte/Telegram-Backup/main/{backup.s
 TELEGRAM_TOKEN=""
 curl https://api.telegram.org/bot$TELEGRAM_TOKEN/getUpdates | jq .result[0].message.chat.id
 ````
+
+### Save Private Key
+```
+gpg --output private.pgp --armor --export-secret-key
+gpg --batch --armor --export-secret-key
+```
